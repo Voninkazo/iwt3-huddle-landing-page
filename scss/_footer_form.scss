@@ -1,0 +1,40 @@
+@import './variables';
+.footer_form__container {
+    .footer_form__heading {
+        font-size: 28px;
+        line-height: 34px;
+        color: #fff;
+        font-weight: 600px;
+        margin: 0;
+    }
+    .footer_form__texts {
+        font-size: $normal-font-size;
+        line-height: $normal-font-height;
+        color: #fff;
+        font-weight: 600px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer_form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input {
+            padding: 20px 30px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+        }
+        button {
+            padding: 20px 34px;
+            align-self: flex-end;
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            background-color: hsl(322, 100%, 66%);
+            border-radius: 5px;
+        }
+    }
+}
