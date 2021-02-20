@@ -20,4 +20,28 @@
         font-size: $normal-font-size;
         line-height: $normal-font-height;
     }
+    // .grow_together {
+    //     background-image: url(../images/bg-section-top-mobile-1.svg);
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-position: center;
+    // }
+    .flowing_conversation {}
+    .your_users {}
+}
+
+@media(min-width: 1114px) {
+    .section_articles {
+        .section_articles__article-item {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .flowing_conversation {
+            flex-direction: row;
+        }
+        .section_articles__textContainer {
+            text-align: start;
+        }
+    }
 }
