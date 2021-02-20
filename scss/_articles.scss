@@ -1,1 +1,23 @@
 @import './variables';
+.section_articles {
+    .section_articles__article-item {
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .section_artices__image {
+        width: 100%;
+    }
+    .section_articles__textContainer {
+        text-align: center;
+    }
+    .section_articles__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .section_articles__texts {
+        font-size: $normal-font-size;
+        line-height: $normal-font-height;
+    }
+}
