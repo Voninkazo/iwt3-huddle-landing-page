@@ -1,0 +1,16 @@
+@mixin reset-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@mixin reset-anchor {
+    text-decoration: none;
+    display: inline-block;
+}
+
+@mixin style-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
