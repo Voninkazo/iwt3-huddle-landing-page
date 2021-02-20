@@ -1,0 +1,17 @@
+.masthead_container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .masthead_title {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: bold;
+    }
+    .masthead_article {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+}

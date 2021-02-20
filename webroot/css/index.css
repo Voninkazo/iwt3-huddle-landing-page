@@ -35,6 +35,21 @@ header > div {
   header > div h1 {
     margin: 0; }
 
+.masthead_container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .masthead_container .masthead_title {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold; }
+  .masthead_container .masthead_article {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 50px; }
+
 .try-button {
   border: 1px solid #ff8fd8;
   border-radius: 67px;
@@ -42,3 +57,10 @@ header > div {
   font-size: 18px;
   line-height: 22px;
   padding: 6px 20px; }
+
+.button_getStarted {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 67px;
+  padding: 15px 40px;
+  background-color: #ff52bf; }
