@@ -3,6 +3,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     .masthead_title {
+        font-family: 'Poppins';
         font-size: 32px;
         line-height: 38px;
         font-weight: bold;
@@ -18,8 +19,10 @@
 
 @media(min-width: 1114px) {
     .masthead_container {
-        max-width: 1114px;
+        max-width: 700px;
         margin: auto;
+        padding-left: 0;
+        padding-right: 0;
         .masthead_article {
             max-width: 459px;
             margin: auto;
